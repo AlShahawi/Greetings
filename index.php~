@@ -1,0 +1,13 @@
+<?php 
+require_once 'vendor/autoload.php';
+use Greetings\SayHello;
+use Greetings\Validators\LanguageValidate;
+
+SayHello::out('en');
+SayHello::out('es');
+SayHello::out('fr');
+
+LanguageValidate::isSupported('en');
+LanguageValidate::isSupported('es');
+LanguageValidate::isSupported('fr');
+

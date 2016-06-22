@@ -1,0 +1,16 @@
+{
+    "name": "alshahawi/greetings",
+    "description": "An php demo library.",
+    "authors": [
+        {
+            "name": "Ahmed Al-Shahawi",
+            "email": "alshahawi@outlook.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+        "psr-4": {
+            "Greetings\\": "src/"
+        }
+    }
+}
